@@ -1,0 +1,36 @@
+nav{
+    background-color: rgb(0, 0, 0);
+	margin-bottom: 40px!important;
+}
+
+.image_countainer{
+	width: 7%;
+	float: left;
+	height: 100%;
+	display: block;
+	
+}
+
+.image_countainer img{
+	width: 100%;
+	height: auto;
+	align-items: left;
+}
+
+
+nav ul li a{
+	font-size: 20px;
+	color: #fff
+
+}
+
+.navbar-toggler-icon{
+	color: #fff;
+}
+.navbar ul li a.active,
+nav ul li a:hover{
+background:red;
+border-radius: 2px;
+transition: 0.8s;
+color: #fff;
+}
